@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(1300, 700);
+    createCanvas(1289, 621);
     engine = Engine.create();
     world = engine.world;
 
@@ -28,31 +28,31 @@ function setup() {
 
     slingshot = new Slingshot(polygon.body, { x: 200, y: 300 });
 
-    block1 = new Block(525, 400, 30, 40);
-    block2 = new Block(555, 400, 30, 40);
-    block3 = new Block(585, 400, 30, 40);
-    block4 = new Block(615, 400, 30, 40);
-    block5 = new Block(645, 400, 30, 40);
-    block6 = new Block(675, 400, 30, 40);
-    block7 = new Block(705, 400, 30, 40);
-    block8 = new Block(735, 400, 30, 40);
-    block9 = new Block(765, 400, 30, 40);
-    block10 = new Block(555, 350, 30, 40);
-    block11 = new Block(585, 350, 30, 40);
-    block12 = new Block(615, 350, 30, 40);
-    block13 = new Block(645, 350, 30, 40);
-    block14 = new Block(675, 350, 30, 40);
-    block15 = new Block(705, 350, 30, 40);
-    block16 = new Block(735, 350, 30, 40);
-    block17 = new Block(585, 300, 30, 40);
-    block18 = new Block(615, 300, 30, 40);
-    block19 = new Block(645, 300, 30, 40);
-    block20 = new Block(675, 300, 30, 40);
-    block21 = new Block(705, 300, 30, 40);
-    block22 = new Block(615, 250, 30, 40);
-    block23 = new Block(645, 250, 30, 40);
-    block24 = new Block(675, 250, 30, 40);
-    block25 = new Block(645, 200, 30, 40);
+    block1 = new Block(525, 350, 30, 40);
+    block2 = new Block(555, 350, 30, 40);
+    block3 = new Block(585, 350, 30, 40);
+    block4 = new Block(615, 350, 30, 40);
+    block5 = new Block(645, 350, 30, 40);
+    block6 = new Block(675, 350, 30, 40);
+    block7 = new Block(705, 350, 30, 40);
+    block8 = new Block(735, 350, 30, 40);
+    block9 = new Block(765, 350, 30, 40);
+    block10 = new Block(555, 300, 30, 40);
+    block11 = new Block(585, 300, 30, 40);
+    block12 = new Block(615, 300, 30, 40);
+    block13 = new Block(645, 300, 30, 40);
+    block14 = new Block(675, 300, 30, 40);
+    block15 = new Block(705, 300, 30, 40);
+    block16 = new Block(735, 300, 30, 40);
+    block17 = new Block(585, 250, 30, 40);
+    block18 = new Block(615, 250, 30, 40);
+    block19 = new Block(645, 250, 30, 40);
+    block20 = new Block(675, 250, 30, 40);
+    block21 = new Block(705, 250, 30, 40);
+    block22 = new Block(615, 200, 30, 40);
+    block23 = new Block(645, 200, 30, 40);
+    block24 = new Block(675, 200, 30, 40);
+    block25 = new Block(645, 150, 30, 40);
 
     block26 = new Block(940, 150, 30, 40);
     block27 = new Block(970, 150, 30, 40);
